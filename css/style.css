@@ -1,19 +1,29 @@
-main{
-    width: 550px;
-    margin: auto;
-    margin-top: 20px;
-    border: 1px solid black;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    color: #181818;
+    text-shadow: 1px 2px 1px #000;
+}
+.containerImc{
+    max-width: 15rem;
+    background-color: #f1f1f1;
     border-radius: 5px;
+    padding: 2px;
 }
-.table{
-    margin-top: 20px;
+form{
+    width: 100%;
+    background-color: #f1f1f1;
 }
-.btn{
-    margin-top: 20px;
-    width: 100px;
-
-}
-.selecionado{
-    background-color: yellow;
-    font-weight: 800;
+.msg{
+    background-color: aquamarine;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    padding: 5px;
 }
